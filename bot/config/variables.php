@@ -36,6 +36,8 @@ $callbackuserid = $update->callback_query->message->reply_to_message->from->id;
 
 $callbackmessageid = $update->callback_query->message->message_id;
 
+$dashboard = 'dashboard qui';
+
 $botToken = '';
 
 ?>
