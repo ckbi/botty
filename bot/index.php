@@ -25,3 +25,28 @@ Type /cmds to know all my commands!</b>",
         
     ]);
 }
+bot('sendmessage',[
+    'chat_id'=>$chat_id,
+    'photo'=>"<b> https://imgur.com/t/yuno_gasai/B4eUBtf</b>",
+    'text'=>"Benvenuto nel bot i propietari sono $bowner",
+    'parse_mode'=>'html',
+    'reply_to_message_id'=> $message_id,
+    'reply_markup'=>json_encode(['inline_keyboard'=>[
+    [['text'=>"Menu",'callback_data'=>"Menu"]],
+    ],'resize_keyboard'=>true])
+    ]);
+  }
+if($data == "Menu"){
+    bot('editMessageText',[
+    'chat_id'=>$callbackchatid,
+    'message_id'=>$callbackmessageid,
+    'text'=>"Comandi del bot",
+    'parse_mode'=>'html',
+    'disable_web_page_preview'=>true,
+        'reply_markup'=>json_encode(['inline_keyboard'=>[[['text'=>"comandi sesso",'callback_data'=>"sex"]],
+ [['text'=>"comandi non entrahh",'callback_data'=>"nonentrahh"]],
+    [['text'=>"comandi entrahh",'callback_data'=>"entrahh"]],
+       [['text'=>"comandi marin",'callback_data'=>"marin"]],
+  ],'resize_keyboard'=>true])
+  ]);
+  }
