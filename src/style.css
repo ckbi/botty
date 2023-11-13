@@ -22,13 +22,39 @@
 
 .main-title{
     font-family: Stretch;
-    text-shadow: 0px 7px 2.5px rgba(0,0,0,0.3)
+    text-shadow: 0px 7px 2.5px rgba(0,0,0,0.3);
 }
 
 .main-subtitle{
     font-family: Poppins;
     font-weight: bold;
     text-shadow: 0px 4.8px 2px rgba(0,0,0,0.3)
+}
+
+.telegram, .about-us{
+    text-align: center;
+    line-height: 0.65;
+    font-size: 30px;
+    margin: auto;
+    width: fit-content;
+    position: absolute;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.527)
+}
+
+.telegram{
+    top: 93.5px;
+    left: 350px;
+}
+
+.about-us{
+    top: 93.5px;
+    right: 350px;
+}
+
+.telegram-link, .aboutus-link{
+    font-family: Poppins;
+    color: black;
+    font-weight: bold;
 }
 
 body {
