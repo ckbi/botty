@@ -15,7 +15,7 @@ if (strpos($message, "/slot") === 0 || strpos($message, "!slot") === 0 || strpos
 
         // Check if the user's guess matches the generated numbers
         if ($userGuess == "$number1 $number2 $number3") {
-            $resultText = "Congratulations! You guessed the numbers correctly! dawg man tag me instant you won premium $user";
+            $resultText = "Congratulations! You guessed the numbers correctly!";
         } else {
             $resultText = "Unlucky your guesses werent right my man $user 🫠";
         }
