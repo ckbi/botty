@@ -2,7 +2,7 @@
 
 - We are working on [Botty](https://github.com/ckbi/botty/)
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Our Socials::</h3>
 <p align="left">
 <a href="https://dev.to/ckbi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="ckbi" height="30" width="40" /></a>
 <a href="https://twitter.com/akamebtc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="akamebtc" height="30" width="40" /></a>
