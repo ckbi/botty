@@ -1,3 +1,10 @@
+/*
+ Made by Davvo
+ Main repository: https://github.com/ckbi/botty/ 
+*/
+
+/* Fonts and Keyframes */
+
 @font-face {
     src: url(fonts/Stretch.ttf);
     font-family: Stretch;
@@ -7,6 +14,19 @@
     src: url(fonts/Poppins-Light.ttf);
     font-family: Poppins;
 }
+
+@keyframes firstanimation{
+    0% {transform: translateY(-250px);}
+    100% {transform: translateY(0px);}
+}
+
+
+@keyframes secanimation{
+    0% {transform: translateY(-250px);}
+    100% {transform: translateY(-93.5px);}
+}
+
+/* All the  first banner personalization */
 
 .title{
     text-align: center;
@@ -18,6 +38,13 @@
     border-radius: 12% 12% 12% 12% / 24% 24% 24% 24%;
     background: linear-gradient(160deg, rgba(244,0,255,1) 0%, rgba(0,212,255,1) 100%);
     margin: auto;
+    transform: translateY(0px);
+
+    /* Animation personalization */
+    animation-name: firstanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */ 
 }
 
 .main-title{
@@ -34,20 +61,25 @@
 .telegram, .about-us{
     text-align: center;
     line-height: 0.65;
-    font-size: 30px;
+    font-size: 25.5px;
     margin: auto;
     width: fit-content;
     position: absolute;
-    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.527)
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.527);
+    transform: translateY(-93.5px);
+
+    /* Animation personalization */
+    animation-name: secanimation;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */ 
 }
 
 .telegram{
-    top: 93.5px;
     left: 350px;
 }
 
 .about-us{
-    top: 93.5px;
     right: 350px;
 }
 
@@ -56,6 +88,8 @@
     color: black;
     font-weight: bold;
 }
+
+/* Page personalization */
 
 body {
     background: rgb(255, 255, 255);
