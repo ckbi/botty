@@ -19,4 +19,3 @@
 | `In Costruzione`      | `telegram.com/botty` |
 
 </br></br>
-<img src="https://media.tenor.com/IvyuPtEfzhoAAAAC/matrix.gif" alt="matrix-gif">
