@@ -14,8 +14,8 @@
   Inoltre le funzionalità potranno essere sbloccate dal sito ufficiale di Botty </br></br>
 </p>
 
-<h4 align="left">:D</h4>
-
 | Sito | Link di Telegram     |
 | :-------- | :------- |
 | `In Costruzione`      | `telegram.com/botty` |
+
+<img src="https://i.gifer.com/1j6F.gif" alt="Descrizione dell'immagine">
