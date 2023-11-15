@@ -15,15 +15,30 @@
     font-family: Poppins;
 }
 
-@keyframes firstanimation{
+@keyframes banner-animation{
     0% {transform: translateY(-250px);}
     100% {transform: translateY(0px);}
 }
 
 
-@keyframes secanimation{
+@keyframes titles-animation{
     0% {transform: translateY(-250px);}
     100% {transform: translateY(-93.5px);}
+}
+
+@keyframes background-animation{
+    0% {background-color: rgb(59, 59, 59);}
+    100% {background-color: rgb(255, 255, 255);}
+}
+
+@keyframes hover-animation{
+    0% {font-size: 25.5px;}
+    100% {font-size: 30px;}
+}
+
+@keyframes button-animation{
+    0% {transform: translateY(0%);}
+    100% {transform: translateY(166%);}
 }
 
 /* All the  first banner personalization */
@@ -41,7 +56,7 @@
     transform: translateY(0px);
 
     /* Animation personalization */
-    animation-name: firstanimation;
+    animation-name: banner-animation;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */ 
@@ -69,10 +84,10 @@
     transform: translateY(-93.5px);
 
     /* Animation personalization */
-    animation-name: secanimation;
+    animation-name: titles-animation;
     animation-duration: 2.5s;
     animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */ 
+    animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */
 }
 
 .telegram{
@@ -89,8 +104,55 @@
     font-weight: bold;
 }
 
+/* Button Personalization */
+
+.main-buttons{
+    position: absolute;
+    top: -55px;
+    width: fit-content;
+    right: 20px;
+    height: 100px;
+}
+
+.signin-button, .signup-button{
+    font-family: Poppins;
+    width: 87.5px;
+    height: 37.5px;
+    border-radius: 13% 13% 13% 13% / 25% 25% 25% 25%;
+    cursor: pointer;
+    transform: translateY(166%);
+}
+
+.signin-button{
+    background-color: rgb(168, 168, 168);
+    border: 2px solid rgb(124, 124, 124);
+   
+    /* Animation personalization */
+    animation-name: button-animation;
+    animation-duration: 1.65s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */
+}
+
+.signup-button{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(204, 204, 204);
+    
+    /* Animation personalization */
+    animation-name: button-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */
+}
+
 /* Page personalization */
 
 body {
     background: rgb(255, 255, 255);
+
+    /* Animation personalization */
+    animation-name: background-animation;
+    animation-duration: 1.25s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; /* The element will retain the style values that is set by the last keyframe */ 
 }
