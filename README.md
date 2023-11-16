@@ -1,21 +1,37 @@
-<h1 align="center">Botty</h1>
 
-<h3 align="left">Cos'è Botty?</h3>
-<p align="left">
-  Botty è un bot Telegram ricco di funzionalità, sia preimpostate che sbloccabili, ideato e creato da
-  <a href="github.com/davvois" align="left" target="_blank">Davvo</a> e
-  <a href="github.com/ckbi" align="left" target="_blank">Und3fy</a>.
-</p>
+# Botty
+A brief description of what this project does and who it's for
 
-<p align="left">
-  Botty offre un'ampia gamma di funzioni integrate, come Slot, BlackJack e così come altri giochi molto coinvolgenti. </br></br>
-  Alcune di queste funzioni sono gratis per tutti gli utenti che utilizzeranno il bot, altre potranno essere sbloccate guadagnando </br>
-  l'apposita valuta di gioco che renderà possibile l'accesso ad esclusive funzionalità! </br></br>
-  Inoltre le funzionalità potranno essere sbloccate dal sito ufficiale di Botty </br></br>
-</p>
 
-| Sito | Link di Telegram     |
-| :-------- | :------- |
-| `In Costruzione`      | `telegram.com/botty` |
+## Authors
 
-</br></br>
+- PHP and bot developer: [@ckbi](https://www.github.com/ckbi)
+- HTML, CSS, and Web Developer [@davvois](https://www.github.com/davvois)
+
+
+## Support
+
+If you find any glith on the bot or you have any suggest leave a comment here! 
+
+
+## FAQ
+
+#### How i can activate the bot?
+
+For now the bot don't work i will add soon the bot working
+
+#### Where i can use the bot?
+
+Soon a telegram group will be created!
+
+
+## Related
+
+Here are some related projects
+
+[Other tools for telegram bots](https://github.com/ckbi/tools-for-tg-bots)
+
+[Minecraft plugin made by davvois](https://github.com/Davvois/oldasf-plugin)
+
+![Logo](https://media.tenor.com/e73LQkmBbcUAAAAC/mr-robot-happy.gif)
+
