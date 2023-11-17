@@ -1,7 +1,8 @@
 
 # Botty
-A brief description of what this project does and who it's for
-
+Botty is a open source telegram bot made in php with a site included 
+All credit goes to real owners.
+If you use please leave all credit we left on the scripts and dont delete them
 
 ## Authors
 
