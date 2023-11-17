@@ -26,6 +26,13 @@ For now the bot don't work i will add soon the bot working
 Soon a telegram group will be created!
 
 
+## Bot Features
+
+- 20+ Tools for bot made in php
+- Supports any type of hosting
+- Can be edited with personalized tools
+- Inline keyboard added
+
 ## Related
 
 Here are some related projects
