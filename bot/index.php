@@ -45,8 +45,8 @@ if($data == "Menu"){
     'disable_web_page_preview'=>true,
         'reply_markup'=>json_encode(['inline_keyboard'=>[[['text'=>"comandi sesso",'callback_data'=>"sex"]],
  [['text'=>"tools",'callback_data'=>"tools"]],
-    [['text'=>"comandi entrahh",'callback_data'=>"entrahh"]],
-       [['text'=>"comandi marin",'callback_data'=>"marin"]],
+    [['text'=>"games",'callback_data'=>"games"]],
+       [['text'=>"funny commands",'callback_data'=>"funny"]],
   ],'resize_keyboard'=>true])
   ]);
   }
@@ -54,7 +54,46 @@ if($data == "tools")(
 	bot('editMessageText',[
 	'chat_id'=>$callbackchatid,
 	    'message_id'=>$callbackmessageid,
-	    'text'=>"Comandi del bot",
+	    'text'=>"╔═════════════════╗
+    
+
+⋆ Genrerate an activity when youre bored
+⋆ Format: /activity 
+━━━━━━━━━━━━━━━━━
+⋆ Basic calculator 
+⋆ Format: /calculate 69 + 69
+━━━━━━━━━━━━━━━━━
+⋆ File to link
+⋆ Format: /upload (File)
+━━━━━━━━━━━━━━━━━
+⋆ 𝗖𝗛𝗘𝗖𝗞 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗜𝗗/𝗚𝗥𝗢𝗨𝗣 𝗜𝗗
+⋆ Format: /id
+━━━━━━━━━━━━━━━━━
+⋆ Fake identity generator
+⋆ Format: /fake
+━━━━━━━━━━━━━━━━━
+⋆ Get Hacker News
+⋆ Format: /hacknews
+━━━━━━━━━━━━━━━━━
+⋆ Generate ip and scans location
+⋆ Format: /ip
+━━━━━━━━━━━━━━━━━
+⋆ Generate urls
+⋆ Format: /search
+━━━━━━━━━━━━━━━━━
+⋆ QR code generator
+⋆ /generateqr (text)
+━━━━━━━━━━━━━━━━━
+⋆ Check website ping
+⋆ Format: /wbpi (url)
+━━━━━━━━━━━━━━━━━
+⋆ Upload files on ANON
+⋆ Format: /uploadanon (file)
+━━━━━━━━━━━━━━━━━
+⋆ Check weather in a city
+⋆ Format: /wthr
+╚═════════════════╝
+",
 	    'parse_mode'=>'html',
 	    'disable_web_page_preview'=>true,
 	     'reply_markup'=>json_encode(['inline_keyboard'=>[[['text'=>"return",'callback_data'=>"Menu"]],
@@ -70,9 +109,43 @@ if($data == "Menu"){
     'disable_web_page_preview'=>true,
         'reply_markup'=>json_encode(['inline_keyboard'=>[[['text'=>"comandi sesso",'callback_data'=>"sex"]],
  [['text'=>"tools",'callback_data'=>"tools"]],
-    [['text'=>"comandi entrahh",'callback_data'=>"entrahh"]],
-       [['text'=>"comandi marin",'callback_data'=>"marin"]],
+    [['text'=>"games",'callback_data'=>"games"]],
+       [['text'=>"funny commands",'callback_data'=>"funny"]],
   ],'resize_keyboard'=>true])
+  ]);
+  }
+if($data == "games")(
+	bot('editMessageText',[
+	'chat_id'=>$callbackchatid,
+	    'message_id'=>$callbackmessageid,
+	    'text'=>"╔═════════════════╗
+⋆ Play roulette
+⋆ Format: /roulette 
+━━━━━━━━━━━━━━━━━
+⋆ Play Slots 
+⋆ Format: /Slot
+╚═════════════════╝
+",
+	    'parse_mode'=>'html',
+	    'disable_web_page_preview'=>true,
+	     'reply_markup'=>json_encode(['inline_keyboard'=>[[['text'=>"return",'callback_data'=>"Menu"]],
+ ],'resize_keyboard'=>true])
+  ]);
+  }
+if($data == "games")(
+	bot('editMessageText',[
+	'chat_id'=>$callbackchatid,
+	    'message_id'=>$callbackmessageid,
+	    'text'=>"╔═════════════════╗
+⋆ Check how gay you are
+⋆ Format: /gay 
+
+╚═════════════════╝
+",
+	    'parse_mode'=>'html',
+	    'disable_web_page_preview'=>true,
+	     'reply_markup'=>json_encode(['inline_keyboard'=>[[['text'=>"return",'callback_data'=>"Menu"]],
+ ],'resize_keyboard'=>true])
   ]);
   }
 
