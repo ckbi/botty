@@ -44,9 +44,38 @@ if($data == "Menu"){
     'parse_mode'=>'html',
     'disable_web_page_preview'=>true,
         'reply_markup'=>json_encode(['inline_keyboard'=>[[['text'=>"comandi sesso",'callback_data'=>"sex"]],
- [['text'=>"comandi non entrahh",'callback_data'=>"nonentrahh"]],
+ [['text'=>"tools",'callback_data'=>"tools"]],
     [['text'=>"comandi entrahh",'callback_data'=>"entrahh"]],
        [['text'=>"comandi marin",'callback_data'=>"marin"]],
   ],'resize_keyboard'=>true])
   ]);
   }
+if($data == "tools")(
+	bot('editMessageText',[
+	'chat_id'=>$callbackchatid,
+	    'message_id'=>$callbackmessageid,
+	    'text'=>"Comandi del bot",
+	    'parse_mode'=>'html',
+	    'disable_web_page_preview'=>true,
+	     'reply_markup'=>json_encode(['inline_keyboard'=>[[['text'=>"return",'callback_data'=>"Menu"]],
+ ],'resize_keyboard'=>true])
+  ]);
+  }
+if($data == "Menu"){
+    bot('editMessageText',[
+    'chat_id'=>$callbackchatid,
+    'message_id'=>$callbackmessageid,
+    'text'=>"Comandi del bot",
+    'parse_mode'=>'html',
+    'disable_web_page_preview'=>true,
+        'reply_markup'=>json_encode(['inline_keyboard'=>[[['text'=>"comandi sesso",'callback_data'=>"sex"]],
+ [['text'=>"tools",'callback_data'=>"tools"]],
+    [['text'=>"comandi entrahh",'callback_data'=>"entrahh"]],
+       [['text'=>"comandi marin",'callback_data'=>"marin"]],
+  ],'resize_keyboard'=>true])
+  ]);
+  }
+
+
+	    
+	    
